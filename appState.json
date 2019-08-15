@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c6f3f880-941a-4fe7-94cb-134c76e44030": {
+        "id": "c6f3f880-941a-4fe7-94cb-134c76e44030",
+        "parent": null,
+        "name": "hiru1508_issue683",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9979187a-36a5-44d9-8f76-44f3c9c7cf74"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru1508_issue683"
+      },
+      "9979187a-36a5-44d9-8f76-44f3c9c7cf74": {
+        "id": "9979187a-36a5-44d9-8f76-44f3c9c7cf74",
+        "parent": "c6f3f880-941a-4fe7-94cb-134c76e44030",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1508_issue683/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "c6f3f880-941a-4fe7-94cb-134c76e44030",
+    "openFiles": [
+      "9979187a-36a5-44d9-8f76-44f3c9c7cf74"
+    ],
+    "currentFileId": "9979187a-36a5-44d9-8f76-44f3c9c7cf74",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru1508_issue683",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565858794448
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru1508_issue683",
+      "url": "https://github.com/HirudineeADRT/hiru1508_issue683"
+    }
+  }
+}
